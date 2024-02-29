@@ -1,0 +1,166 @@
+body {
+  font-family: roboto;
+  margin: 100px;
+  padding: 50px;
+  border: .5px solid  rgba(93, 117, 117, 0.329);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.section-1 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+
+}
+
+.section-2 {
+  margin-top: 50px;
+}
+.profile-pic,qr1{
+  margin-top: 12px;
+}
+.pp {
+  height: 170px;
+}
+
+.info {
+  max-width: 65%;
+}
+
+.name-my {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.degignation {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.cover-letter {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+
+}
+
+.qr1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.qr2 {
+  height: 150px;
+}
+
+.linkedin {
+
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-2 {
+  display: flex;
+  flex: 1;
+}
+
+.left-part {
+  background-color: rgba(93, 117, 117, 0.329);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 27px;
+  font-weight: 500;
+
+}
+
+.name,
+.sector,
+.main-skills {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 5px;
+
+}
+
+.cgpa,
+.passing-year,
+.session,
+.result,
+.objectives,
+.tool-list,
+.bullet-points {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.g2,
+.g1,
+.group .details,
+.sub-skills {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.edu-group,
+.activities-group,
+.training-courses-group,
+.skill-group,
+.tool-group,
+.description,
+.info,
+.job-group,
+.project-group {
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+
+.activities,
+.education,
+.training-courses,
+.tools,
+.contacts,
+.skill,
+.experiance,
+.projects {
+  margin-top: 20px;
+  margin-top: 20px;
+}
+
+.group {
+  display: flex;
+  margin-bottom: 5px;
+
+}
+
+.group .details {}
+
+.right-part {
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 400px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.name .author .objectives .training-courses .name .author .objectives .ttols .sector .tool-list .contacts .group .details .phone .email .linkedin-link .address .github-link
